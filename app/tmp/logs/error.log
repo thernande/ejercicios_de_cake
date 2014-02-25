@@ -1,0 +1,586 @@
+2014-02-11 16:34:46 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/posts/index
+Stack Trace:
+#0 C:\wamp\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-11 16:35:07 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/view/1
+Stack Trace:
+#0 C:\wamp\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-11 16:40:25 Error: Fatal Error (4): parse error, expecting `T_VARIABLE' in [C:\wamp\www\app\Controller\PostsController.php, line 11]
+2014-02-11 16:40:25 Error: [FatalErrorException] parse error, expecting `T_VARIABLE'
+Request URL: /posts/index
+Stack Trace:
+#0 C:\wamp\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', 'C:\wamp\www\app...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', 'C:\wamp\www\app...', 11, Array)
+#2 C:\wamp\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', 'C:\wamp\www\app...', 11, Array)
+#3 C:\wamp\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-11 16:40:42 Error: Fatal Error (4): parse error, expecting `T_VARIABLE' in [C:\wamp\www\app\Controller\PostsController.php, line 11]
+2014-02-11 16:40:42 Error: [FatalErrorException] parse error, expecting `T_VARIABLE'
+Request URL: /posts/index
+Stack Trace:
+#0 C:\wamp\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', 'C:\wamp\www\app...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', 'C:\wamp\www\app...', 11, Array)
+#2 C:\wamp\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', 'C:\wamp\www\app...', 11, Array)
+#3 C:\wamp\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-11 16:40:44 Error: Fatal Error (4): parse error, expecting `T_VARIABLE' in [C:\wamp\www\app\Controller\PostsController.php, line 11]
+2014-02-11 16:40:44 Error: [FatalErrorException] parse error, expecting `T_VARIABLE'
+Request URL: /posts/index
+Stack Trace:
+#0 C:\wamp\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', 'C:\wamp\www\app...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', 'C:\wamp\www\app...', 11, Array)
+#2 C:\wamp\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', 'C:\wamp\www\app...', 11, Array)
+#3 C:\wamp\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-11 18:56:32 Error: [MissingViewException] View file "C:\wamp\www\app\View\Posts\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\app\\View\\Posts\\add.ctp',
+)
+Request URL: /posts/add
+Stack Trace:
+#0 C:\wamp\www\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-11 19:50:00 Error: Fatal Error (4): parse error in [C:\wamp\www\app\Controller\PostsController.php, line 63]
+2014-02-11 19:50:01 Error: [FatalErrorException] parse error
+Request URL: /posts/index
+Stack Trace:
+#0 C:\wamp\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', 'C:\wamp\www\app...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', 'C:\wamp\www\app...', 63, Array)
+#2 C:\wamp\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', 'C:\wamp\www\app...', 63, Array)
+#3 C:\wamp\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-12 12:55:13 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-13 21:51:36 Error: Fatal Error (1): Call to a member function isThisYear() on a non-object in [C:\wamp\www\ejercicios de cake\app\Controller\AppController.php, line 39]
+2014-02-13 21:51:37 Error: [FatalErrorException] Call to a member function isThisYear() on a non-object
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 39, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\eje...', 39, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-13 21:53:42 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 32]
+2014-02-13 21:53:42 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /ejercicios%20de%20cake/users/login
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 32)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 32, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 32, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-13 21:55:38 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 32]
+2014-02-13 21:55:38 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /ejercicios%20de%20cake/users/login
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 32)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 32, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 32, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-13 21:58:43 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 32]
+2014-02-13 21:58:43 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /ejercicios%20de%20cake/users/login
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 32)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 32, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 32, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-13 22:00:00 Error: Fatal Error (1): Call to a member function is() on a non-object in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 33]
+2014-02-13 22:00:00 Error: [FatalErrorException] Call to a member function is() on a non-object
+Request URL: /ejercicios%20de%20cake/users/login
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 33, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\eje...', 33, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-13 22:00:20 Error: Fatal Error (1): Call to a member function is() on a non-object in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 33]
+2014-02-13 22:00:20 Error: [FatalErrorException] Call to a member function is() on a non-object
+Request URL: /ejercicios%20de%20cake/users/login
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 33, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\eje...', 33, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-13 22:00:46 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /ejercicios%20de%20cake/users/login
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(3498): Model->setSource('users')
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#4 C:\wamp\www\ejercicios de cake\app\View\Users\login.ctp(3): FormHelper->create('User')
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(929): include('C:\wamp\www\eje...')
+#6 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\eje...', Array)
+#7 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(460): View->_render('C:\wamp\www\eje...')
+#8 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#9 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#10 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-14 13:34:59 Error: [MissingActionException] Action UsersController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+)
+Request URL: /ejercicios%20de%20cake/users/edit/1
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-14 13:35:38 Error: [MissingViewException] View file "C:\wamp\www\ejercicios de cake\app\View\Users\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\ejercicios de cake\\app\\View\\Users\\view.ctp',
+)
+Request URL: /ejercicios%20de%20cake/users/view/1
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-14 13:55:55 Error: [MissingActionException] Action UsersController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'delete',
+)
+Request URL: /ejercicios%20de%20cake/users/delete/3
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-14 13:57:13 Error: Fatal Error (4): parse error, expecting `','' or `';'' in [C:\wamp\www\ejercicios de cake\app\View\Users\add.ctp, line 5]
+2014-02-14 13:57:13 Error: [FatalErrorException] parse error, expecting `','' or `';''
+Request URL: /ejercicios%20de%20cake/users/add
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', 'C:\wamp\www\eje...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', 'C:\wamp\www\eje...', 5, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', 'C:\wamp\www\eje...', 5, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 13:57:56 Error: Fatal Error (1): Call to undefined method UsersController::request() in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 35]
+2014-02-14 13:57:56 Error: [FatalErrorException] Call to undefined method UsersController::request()
+Request URL: /ejercicios%20de%20cake/users/login
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 35, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\eje...', 35, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 14:00:38 Error: Fatal Error (1): Call to undefined method UsersController::request() in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 35]
+2014-02-14 14:00:38 Error: [FatalErrorException] Call to undefined method UsersController::request()
+Request URL: /ejercicios%20de%20cake/users/login
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 35, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\eje...', 35, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 15:02:16 Error: Fatal Error (4): parse error in [C:\wamp\www\ejercicios de cake\app\Controller\PostsController.php, line 73]
+2014-02-14 15:02:17 Error: [FatalErrorException] parse error
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', 'C:\wamp\www\eje...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', 'C:\wamp\www\eje...', 73, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', 'C:\wamp\www\eje...', 73, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 20:57:47 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(3476): ConnectionManager::getDataSource('default')
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(3498): Model->setSource('posts')
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\ejercicios de cake\app\Controller\PostsController.php(9): Model->find('all')
+#7 [internal function]: PostsController->index('home')
+#8 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-14 21:01:44 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(3476): ConnectionManager::getDataSource('default')
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(3498): Model->setSource('posts')
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\ejercicios de cake\app\Controller\PostsController.php(9): Model->find('all')
+#7 [internal function]: PostsController->index('home')
+#8 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-14 21:15:37 Error: Fatal Error (4): parse error in [C:\wamp\www\ejercicios de cake\app\Controller\PostsController.php, line 26]
+2014-02-14 21:15:37 Error: [FatalErrorException] parse error
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', 'C:\wamp\www\eje...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', 'C:\wamp\www\eje...', 26, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', 'C:\wamp\www\eje...', 26, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 21:16:55 Error: Fatal Error (4): parse error in [C:\wamp\www\ejercicios de cake\app\Controller\PostsController.php, line 26]
+2014-02-14 21:16:55 Error: [FatalErrorException] parse error
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', 'C:\wamp\www\eje...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', 'C:\wamp\www\eje...', 26, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', 'C:\wamp\www\eje...', 26, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 21:30:03 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 6]
+2014-02-14 21:30:03 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ejercicios%20de%20cake/users/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 6, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\eje...', 6, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 21:31:17 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 6]
+2014-02-14 21:31:17 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ejercicios%20de%20cake/users/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 6, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\eje...', 6, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 21:32:33 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 6]
+2014-02-14 21:32:33 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ejercicios%20de%20cake/users/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 6, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\eje...', 6, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 21:32:55 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /ejercicios%20de%20cake/users/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-02-14 21:33:55 Error: Fatal Error (1): Call to a member function login() on a non-object in [C:\wamp\www\ejercicios de cake\app\Controller\UsersController.php, line 12]
+2014-02-14 21:33:55 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /ejercicios%20de%20cake/users/login
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\eje...', 12, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\eje...', 12, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 22:20:06 Error: [MissingComponentException] Component class LdapAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'LdapAuthComponent',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('LdapAuth', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(181): Controller->constructClasses()
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-14 22:23:01 Error: [MissingComponentException] Component class LdapAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'LdapAuthComponent',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('LdapAuth', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(181): Controller->constructClasses()
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-14 22:26:07 Error: [MissingComponentException] Component class LdapAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'LdapAuthComponent',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('LdapAuth', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(181): Controller->constructClasses()
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-14 22:26:07 Error: Fatal Error (64): Cannot redeclare class LdapAuthenticate in [C:\wamp\www\ejercicios de cake\app\Controller\Component\LdapAuthComponent.php, line 254]
+2014-02-14 22:26:07 Error: [FatalErrorException] Cannot redeclare class LdapAuthenticate
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 254)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 254, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\eje...', 254, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 22:29:11 Error: Fatal Error (1): Call to undefined method LdapAuthComponent::user() in [C:\wamp\www\ejercicios de cake\app\Controller\AppController.php, line 58]
+2014-02-14 22:29:11 Error: Fatal Error (1): Call to undefined method LdapAuthComponent::user() in [C:\wamp\www\ejercicios de cake\app\Controller\AppController.php, line 58]
+2014-02-14 22:29:11 Error: [FatalErrorException] Call to undefined method LdapAuthComponent::user()
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 58, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\eje...', 58, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 22:29:11 Error: [FatalErrorException] Call to undefined method LdapAuthComponent::user()
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 58, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\eje...', 58, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 22:29:17 Error: Fatal Error (1): Call to undefined method LdapAuthComponent::user() in [C:\wamp\www\ejercicios de cake\app\Controller\AppController.php, line 58]
+2014-02-14 22:29:17 Error: Fatal Error (1): Call to undefined method LdapAuthComponent::user() in [C:\wamp\www\ejercicios de cake\app\Controller\AppController.php, line 58]
+2014-02-14 22:29:17 Error: [FatalErrorException] Call to undefined method LdapAuthComponent::user()
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 58, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\eje...', 58, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 22:29:17 Error: [FatalErrorException] Call to undefined method LdapAuthComponent::user()
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\eje...', 58, Array)
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\eje...', 58, Array)
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-14 22:30:38 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(867): HelperCollection->load('Locale', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-14 22:30:38 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(867): HelperCollection->load('Locale', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-17 13:20:45 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(867): HelperCollection->load('Locale', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-17 13:20:45 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(867): HelperCollection->load('Locale', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-17 13:21:42 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(867): HelperCollection->load('Locale', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-17 13:21:42 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(867): HelperCollection->load('Locale', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-17 13:21:50 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(867): HelperCollection->load('Locale', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-17 13:21:50 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(867): HelperCollection->load('Locale', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-17 13:22:36 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(867): HelperCollection->load('Locale', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-02-17 13:22:36 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /ejercicios%20de%20cake/
+Stack Trace:
+#0 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(867): HelperCollection->load('Locale', Array)
+#1 C:\wamp\www\ejercicios de cake\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(PostsController))
+#3 C:\wamp\www\ejercicios de cake\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\ejercicios de cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\ejercicios de cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}

@@ -1,0 +1,10 @@
+2014-02-14 22:27:08 Ldap.error: LDAP not configured on this server.
+2014-02-14 22:29:11 Ldap.error: Auth failed for 'CN=administrator,DC=esu,DC=com.co'!
+2014-02-14 22:29:17 Ldap.error: Auth failed for 'CN=administrator,DC=esu,DC=com.co'!
+2014-02-14 22:30:33 Ldap.error: Auth failed for 'CN=administrator,DC=esu,DC=com.co'!
+2014-02-17 13:20:45 Ldap.error: Auth failed for 'CN=administrator,OU=Administrators,DC=esu,DC=com'!
+2014-02-17 13:21:42 Ldap.error: Auth failed for 'CN=administrator,OU=Administrators,DC=esu,DC=com'!
+2014-02-17 13:21:50 Ldap.error: Auth failed for 'CN=administrator,OU=Administrators,DC=esu,DC=com.co'!
+2014-02-17 13:22:36 Ldap.error: Auth failed for 'CN=administrator,DC=esu,DC=com.co'!
+2014-02-18 13:17:42 Ldap.error: LDAP not configured on this server.
+2014-02-18 13:25:53 Ldap.error: LDAP not configured on this server.
